@@ -1,0 +1,72 @@
+/**
+* Navigation
+*/
+i.fa {
+    font-size: 0.8rem;
+}
+
+.navbar-scrolled {
+    background-color: #fff !important;
+    border-bottom: 1px solid #f2f6fc;
+}
+
+a.navbar-brand.text-primary {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/**
+*Utilities
+*/
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.btn-primary-soft {
+    color: #212832;
+    background-color: #dae7fb;
+    border-color: #dae7fb;
+}
+
+.btn-primary-soft:hover {
+    color: #212832;
+    background-color: #b7d1f7;
+    border-color: #acc9f6;
+}
+
+.badge-primary-soft {
+    background-color: #dae7fb;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem !important;
+}
+
+.lift {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.lift:hover {
+    transform: translateY(-0.3333333333rem);
+    box-shadow: 0 0.5rem 2rem 0 rgba(33, 40, 50, 0.25);
+}
+/*BS4 disabled Shadow by default*/
+.shadow {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15) !important;
+}
+
+.text-gray-400 {
+    color: #c5ccd6 !important;
+}
+
+.text-xs {
+    font-size: 0.75rem !important;
+}
+
+.icon-list-social-link i{
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+.footer.footer-light {
+    color: #a7aeb8;
+}
